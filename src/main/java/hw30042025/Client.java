@@ -32,6 +32,5 @@ public class Client {
             String response = new String(responseBuffer.array(), 0, read, StandardCharsets.UTF_8);
             System.out.println("Result: " + response.trim());
         }
-
     }
 }
