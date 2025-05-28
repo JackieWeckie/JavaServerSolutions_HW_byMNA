@@ -11,6 +11,7 @@ public class Main {
     }
 
     public static int[] twoArrays(int[] array1, int[] array2) {
+
         int[] array3 = new int[array1.length + array2.length];
 
         int array1Index = 0;
